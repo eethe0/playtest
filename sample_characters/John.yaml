@@ -1,0 +1,17 @@
+name: John JDR
+strength: d6
+agility: d6
+focus: d6
+armor: 2
+resolve: 2/6
+stress: 0/6
+thresholds: [8,16]
+traits:
+    - Soldier (d8)
+gear: 
+    - Sword (d8)
+    - Shield (d6)
+    - Medium Armor (2 Armor)
+pockets:
+    - 13 coins
+background: |
