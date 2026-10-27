@@ -96,6 +96,8 @@ The number of Edges determines the level of success:
 - 2 → Full success — You do the thing as intended.
 - 3+ → Overwhelming success — You achieve your goal, and gain additional benefits or advantages.
 
+To communicate rolls faster at the table, read the dice, then say: "X hits, for Y", where X is the number of Edges and Y is the Result.
+
 ### Difficulty Reference
 - T=3 — Easy
 - T=4 — Moderate (default, most common)
