@@ -229,9 +229,8 @@ When you Break from a Graze, you must pass a Strength save (Difficulty 4), or ta
 When you take a Mortal Wound, you must pass a Strength save (Difficulty 4), or become Dying.
 
 A wound has associated Conditions. These can be Treated relatively easily, negating their effects.
-A wound has a Severity represented by a die. A wound defaults to d8, a Mortal Wound defaults to d6.
-Some triggers require you to roll a wound's Severity die. On a 1, the wound worsens, and the die drops one size.
-With treatment and care, a wound's severity can be reduced, stepping the die up in size.
+A wound has a Severity value equal to the damage that caused it (after damage reduction).
+With treatment and care, a wound's severity can be reduced. If it reaches 0 or less, the wound is healed and frees up its slot.
 
 ## Conditions
 ### Stress
@@ -250,12 +249,9 @@ You are unable to move or act.
 Some of your dice are downgraded in size.
 Wounds and situational disadvantage can cause impairment.
 ### Bleeding
-You must roll the wound's severity everytime you move or act. 
-- On a 1, the wound worsens.
-- On a 2 or 3, mark one stress, and Faint if you Break.
-- On a 6+ the bleeding stops on its own.
+Mark a stress everytime you move or act. If you Break that way, you fall unconscious.
 ### Dying
-You can only crawl weakly and will die without help. If your severity die rolls 1 on a d4, you die immediately.
+You can only crawl weakly and will die without help.
 
 ## Progression
 ### Attribute increase
@@ -272,7 +268,7 @@ You may take one short rest per phase. It lasts about one hour.
 When you take a short rest, the GM gains 1d4 Omens.
 During a short rest, you may perform two of the following actions:
 - Clear Stress → Clear 1d4 Stress. You can use this on another character.
-- Patch Wounds → Reduce the severity of 1 Wound, stepping its die up one size. You can use this on another character.
+- Patch Wounds → Reduce the severity of 1 Wound by 1 or treat one of its conditions. You can use this on another character.
 - Prepare → Gain 1 Resolve. (Gain 2 if you prepare with other allies)
 
 An interrupted short rest yields no benefits.
@@ -281,9 +277,9 @@ An interrupted short rest yields no benefits.
 You may take one long rest per day. It lasts an entire phase (camping, eating, sleeping).
 When you take a long rest, the GM gains X+1d4 Omens, where X is the number of player characters.
 During a long rest, you may perform two of the following actions:
-- Clear Stress → Clear all Stress. You can use this on another character. 
+- Clear Stress → Clear all Stress. You can use this on another character.
 - Clear Exhaustion → Remove 1 level of Exhaustion.
-- Patch Wounds → Reduce the severity of 1 Wound, stepping its die up one size. You can use this on another character.
+- Patch Wounds → Reduce the severity of 1 Wound by 1d4 (can be upgraded with a relevant Trait) and treat one of its conditions. You can use this on another character. 
 - Prepare → Gain 1 Resolve. (Gain 2 if you prepare with other allies)
 - Grow → If your attribute has 5 marks, roll its die. If it rolls its maximum value, it steps up to the next higher die size, up to d12, and you clear all marks for that attribute.
 - Work on a project → Establish or continue working on a long-term Project.
@@ -297,7 +293,7 @@ During downtime, you may work on a project for a whole phase, once per phase or 
 A project's Scale is represented by a die size. 
 A project may require resources, materials or energy.
 The project's Goal is that die size squared. (d4 → 16, d6 → 36, d8 → 64, d10 → 100, d12 → 144)
-Every time you work on a project, make an Action roll with the relevant dice, with T equals to 4. Then:
+Every time you work on a project, make an Action roll with the relevant dice, with T=4. Then:
 - On a success, add your result to the project's Progress.
 - On a failure, subtract your result from the project's Progress — something goes wrong, wasting some progress.
 
