@@ -207,14 +207,17 @@ When your action roll yields Edges, you may perform one additional sub-action pe
 
 ## Reaction
 In response to another incoming harm, a character can take a **Reaction**. Reactions include:
-- Dodging
-- Blocking
-- Parrying
-- Counterattacking
+- Dodge (Opposition) or Block / Shield an ally (Opposition) → Reduce damage taken
+- Parry / Deflect / Counter (Save / Opposition) → Avoid harm and gain an advantage or impose a disadvantage
+- Interrupt (Opposition) → Prevent, halt, disrupt a movement or action.
+- Endure (Save) → Shake off a condition
+- Brace (Save) → Resist a condition
+- Notice (Save) → Avoid surprise, spot a trap, pick up information
 - Anything that can be done **in a split second**, according to the fiction
 
 If you attempt something slow or shaky, the GM may require you to downgrade your roll.
 Reactions are declared before rolling. Both parties assemble their pools openly, and roll at the same time. You can tell how dangerous something coming at you is, just not how bad it's going to be yet.
+Reaction generally don't inflict damage directly.
 
 # Resolve Moves
 All player characters can spend Resolve to:
