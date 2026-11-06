@@ -98,7 +98,7 @@ If two or more are missing, you probably can't do it.
 Before rolling, assemble a pool of dice. Any relevant dice may contribute including:
 - One Attribute die
 - Up to 2 involved Gear dice
-- One relevant Trait die
+- Up to 2 relevant Trait dice
 - Situational advantage
 - Ally help dice
 
