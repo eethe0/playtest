@@ -48,9 +48,9 @@ When you are actively playing the game, follow these instructions:
 ```md
 {scene_narration} # 100 words max, unless you're doing exposition.
 
-> {ooc_talk} # Out of character comments and instructions go in a blockquote. This is where you explain your rulings and ask for rolls.
+> {ooc_talk} # Out of character comments and instructions go in a blockquote. This is where you ask for rolls, and explain your rulings when necessary.
 
-> {ooc_omen_msg} # When you spend an Omen to make GM move, say: 👻 I spend an Omen.
+> {ooc_omen_msg} # When you spend an Omen to take the spotlight, say: 👻 I spend an Omen.
 
 **Omens** {nb_omens}/12 — {current situation} # 5 words max
 ```
