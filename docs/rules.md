@@ -16,7 +16,7 @@ All characters have:
     - Strength (STR) → might, vigor, resilience, stamina
     - Agility (AGI) → speed, reflexes, precision, coordination
     - Focus (FCS) → clarity, senses, willpower, attunement
-    - Presence (PRE) → aura, intuition, empathy, composure
+    - Presence (PRE) → aura, intuition, composure, bearing
 - Traits → Narrative keywords or phrases describing a character's skills, bonds, personality, physique, or background. Each trait has an associated die.
 - Gear → 10 slots for weapons, tools, items and equipment. Each may have an associated die, an Armor value when worn, or special properties.
 - Pockets → For carrying items of negligible encumbrance, such as a trinket, a handful of coins, a key, a letter.
@@ -335,3 +335,19 @@ When you cast a spell that requires continued attention, you must maintain Conce
 - When you lose Concentration on a spell, its effect ends immediately.
 ## Casting speed
 By default, a spell can't be cast as a reaction. Training and practice may allow it for specific techniques.
+
+# Content Design
+## Designing encounters
+When creating enemies, play with all the parameters to create interesting puzzles: Attributes, Armor, Damage Thresholds, number of stress and wound slots.
+Give elite enemies special Omen-paid abilities, thematic Edge bonuses on their rolls, or even triggers and phases.
+The baseline for humanoid characters is 4d6 (trade 2) attributes, 0-3 Armor, 6 stress slots, 2 wound slots. All enemies should still only have one mortal wound slot; move the thresholds and the number of stress (0 to 12) and wound (0 to 6) slots to adjust tankiness.
+
+## Designing items
+When creating weapon or tools, you can tweak the die, range, and create a flavourful and mechanically engaging edge bonus for the item.
+Consider the main functionality of the item: that should not be its edge bonus. The edge bonus should represent a secondary advantage or specialty that enhances the item's use in specific situations.
+
+## Designing moves
+When creating special moves or abilites for the player or NPCs, consider the following:
+- Define its conditions or triggers
+- Define a cost. Resolve, stress, materials, a change in the scene...
+- Define its effect
