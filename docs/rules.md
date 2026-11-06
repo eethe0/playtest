@@ -8,8 +8,7 @@
 - Telegraph danger, create real risks, give opportunities to interact with the world.
 - Describe consistently, provide useful information, be helpful, give honest and direct answers.
 - Characters know what they know, and see what they see. Don't withhold information.
-- Social rolls are unnecessary. Convey the NPC's wants and needs clearly, let roleplay and player creativity push conversations forward.
-- When unsure, use the fate die.
+- Convey the NPC's wants and needs clearly, let roleplay and player creativity push conversations forward. Only use social rolls when conversation alone can't settle the outcome.
 
 # Characters
 All characters have:
@@ -34,7 +33,7 @@ Player characters also have:
 ## Character Creation
 Starting characters have:
 - Choose one of these attribute layouts: [d6,d6,d6,d6], [d4,d6,d6,d8], [d4,d4,d8,d8], [d4,d4,d6,d10]. (In procedural terms, start with all d6, then you may drop one in size to raise another, twice.) Assign each die to one attribute in any order.
-- Choose 3 starting Traits:
+- Choose 2 starting Traits:
     - A profession **d8** → A skill or domain you are trained in. (*Soldier / Blacksmith / Apothecary*)
     - A catchphrase **d6** → A broad, short and thematic sentence. (*Can't catch me / Just one more / I see you*)
 - Choose your starting Gear.
@@ -94,9 +93,6 @@ Consider these 3 factors:
 If you have all three, you likely automatically succeed.
 If one is missing, you may need to roll to determine the outcome.
 If two or more are missing, you probably can't do it.
-
-## Fate die
-When a scene that doesn't justify a roll needs a narrative answer, roll a d6. A higher value favors the PCs.
 
 ## What to roll
 Before rolling, assemble a pool of dice. Any relevant dice may contribute including:
