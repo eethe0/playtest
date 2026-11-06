@@ -110,7 +110,7 @@ After rolling, sort the dice, then read:
 - **Edges** → any other dice showing 4 or higher, beyond the two highest.
 
 The roll succeeds if the result reaches T or higher.
-Consider granting partial success if the result reaches T-2 or T-1.
+Consider granting partial success if the result reaches T-1.
 On T above 8, if the roll fails with Edges, consider letting the player "buy" a partial success in exchange for all Edges.
 
 ## Difficulty Reference
@@ -120,6 +120,8 @@ On T above 8, if the roll fails with Edges, consider letting the player "buy" a 
 - T=12 — Very Hard
 - T=14 — Insane
 - T=16 — Impossible
+
+Prefer an even T whenever possible.
 
 ## Dice Reference
 - d4 — Novice — 1 in 4 odds of 4+
@@ -163,8 +165,8 @@ Ranged attacks have their damage reduced by distance and cover.
 - Within effective range → no reduction
 - Beyond effective range → -2
 - Beyond 2× effective range → -4
-- Target behind partial cover → -4
-- Target behind full cover → -8
+- Partial cover → -4
+- Full cover → -8 or more depending on the nature of the cover
 
 ## Reaction rolls
 When the scene presents imminent danger or harm with a split-second to react, characters may make a Reaction roll.
