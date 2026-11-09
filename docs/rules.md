@@ -307,14 +307,15 @@ Spending 3 phases without a long rest inflicts 1 Exhaustion.
 
 # Projects
 During downtime, you may work on a project for a whole phase, once per phase or as a long rest action.
-A project's Scale is represented by a die size. 
-A project may require resources, materials or energy.
-The project's Goal is that die size squared. (d4 → 16, d6 → 36, d8 → 64, d10 → 100, d12 → 144)
-Every time you work on a project, make an Action roll with the relevant dice, with T=4. Then:
-- On a success, add your result to the project's Progress.
-- On a failure, subtract your result from the project's Progress — something goes wrong, wasting some progress.
+When you start a project, work with the GM to define two "clocks" and the goal:
+- the number of successes required to complete it.
+- the number of allowed failures.
+- the end result or goal of the project.
 
-When the Progress reaches the Goal, your project is complete.
+Each unit of work represents a step in the project, which can take different narrative forms and require varied rolls depending on the nature of the sub-task.
+When progress reaches the required successes, your project is complete.
+If the project passes the allowed number of failures before reaching its goal, consider the number of achieved successes to determine the extent of partial completion, from a failed attempt, to a lesser end result, to a perfect or even exceptional outcome.
+Edges on successful roll may also contribute to the final quality of the project. Take note of them as you work. They may also buy you time to work on the next step during the same phase.
 
 Possible projects include:
 - Crafting
