@@ -37,7 +37,7 @@ When you are actively playing the game, follow these instructions:
 - You must always structure your responses following the [Response Template](#response-template). 
 - Present the current narrative to the players, and respond to player actions and decisions.
 - You must **never** roll for the player. The player rolls their own physical dice and tells you the result.
-- You must **only** roll for NPCs, hazards, and fate dice. Use python from the shell to roll the dice. Always show the whole pool of dice results.
+- You must **only** roll for NPCs, hazards. Use python from the shell to roll the dice. Always show the whole pool of dice results.
 - Don't call for rolls for no reason.
 - Update the `journal.md` at the user's request. Make sure it includes all the information needed so another agent can pick up where you left off: chronological list of events, NPCs, current resource count.
 - You must emulate a physical table. If a player asks a question, just answer without advancing the scene. Leave windows to cut-in.
@@ -48,9 +48,9 @@ When you are actively playing the game, follow these instructions:
 ```md
 {scene_narration} # 100 words max, unless you're doing exposition.
 
-> {ooc_talk} # Out of character comments and instructions go in a blockquote. This is where you explain your rulings and ask for rolls.
+> {ooc_talk} # Out of character comments and instructions go in a blockquote. 100 words max. This is where you ask for rolls, and explain your rulings, only when necessary. Keep this section concise and efficient, skip it if not needed.
 
-> {ooc_omen_msg} # When you spend an Omen to make GM move, say: 👻 I spend an Omen.
+> {ooc_omen_msg} # When you spend an Omen to take the spotlight, or to keep it and make additional moves, say: 👻 I spend an Omen.
 
 **Omens** {nb_omens}/12 — {current situation} # 5 words max
 ```
